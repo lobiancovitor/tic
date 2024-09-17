@@ -1,0 +1,45 @@
+Estado,Cursos,Matriculas,Modalidade
+SP,Direito,165326,Presencial
+SP,Administração,106768,Presencial
+SP,Psicologia,66992,Presencial
+SP,Pedagogia,62783,Presencial
+SP,Enfermagem,59937,Presencial
+SP,Eng. Civil,57431,Presencial
+SP,Contabilidade,43476,Presencial
+SP,Arquitetura,37753,Presencial
+SP,Pedagogia,113380,EAD
+SP,Administração,40372,EAD
+SP,Gestão de Pessoas,25072,EAD
+RJ,Direito,64650,Presencial
+RJ,Administração,29707,Presencial
+RJ,Psicologia,22990,Presencial
+RJ,Enfermagem,22732,Presencial
+RJ,Nutrição,14722,Presencial
+RJ,Eng. Civil,14138,Presencial
+RJ,Medicina,13563,Presencial
+RJ,Fisioterapia,12467,Presencial
+RJ,Administração,23112,EAD
+RJ,Pedagogia,22101,EAD
+RJ,Gestão de Pessoas,12735,EAD
+MG,Direito,87533,Presencial
+MG,Administração,28688,Presencial
+MG,Psicologia,25304,Presencial
+MG,Eng. Civil,24657,Presencial
+MG,Enfermagem,19475,Presencial
+MG,Medicina,19306,Presencial
+MG,Contabilidade,16704,Presencial
+MG,Odontologia,15694,Presencial
+MG,Pedagogia,55803,EAD
+MG,Administração,23574,EAD
+MG,Contabilidade,14867,EAD
+ES,Direito,15395,Presencial
+ES,Administração,6072,Presencial
+ES,Eng. Civil,4637,Presencial
+ES,Psicologia,4268,Presencial
+ES,Pedagogia,3599,Presencial
+ES,Enfermagem,3575,Presencial
+ES,Contabilidade,3504,Presencial
+ES,Medicina,3385,Presencial
+ES,Pedagogia,9583,EAD
+ES,Administração,6089,EAD
+ES,Contabilidade,3009,EAD
