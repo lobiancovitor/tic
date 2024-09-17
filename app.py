@@ -46,18 +46,14 @@ st.write("RJ: 73,8% das matrículas totais são em instituições privadas. 71,5
 estadoss = data_modalidade["Estado"].unique()
 selecteds_estado = st.selectbox("Escolha um Estado", estadoss, key="estados_selectbox")
 
-# Filtrar o DataFrame com base no estado selecionado
 df_filtered = data_modalidade[data_modalidade["Estado"] == selecteds_estado]
 
-# Pivotar o DataFrame para criar um gráfico de barras
 df_pivot = df_filtered.pivot_table(
     index="Modalidade", columns="Rede", values="Matriculas", aggfunc="sum", fill_value=0
 ).reset_index()
 
-# Ajustar o DataFrame para usar com st.bar_chart
 df_pivot.set_index("Modalidade", inplace=True)
 
-# Criar o gráfico de barras usando st.bar_chart()
 st.write(f"### Matrículas por Modalidade e Rede - {selecteds_estado}")
 st.bar_chart(df_pivot, use_container_width=True)
 
@@ -69,7 +65,7 @@ estados = data_cursos["Estado"].unique()
 selected_estado = st.selectbox("Escolha um Estado", estados)
 df_filtered = data_cursos[data_cursos["Estado"] == selected_estado]
 
-# Pivotar o DataFrame para criar um gráfico de barras
+
 df_pivot = df_filtered.pivot_table(
     index="Cursos",
     columns="Modalidade",
@@ -78,10 +74,9 @@ df_pivot = df_filtered.pivot_table(
     fill_value=0,
 ).reset_index()
 
-# Ajustar o DataFrame para usar com st.bar_chart
+
 df_pivot.set_index("Cursos", inplace=True)
 
-# Criar o gráfico de barras usando st.bar_chart()
 st.write(f"### Matrículas por Curso (rede privada) - {selected_estado}")
 st.bar_chart(df_pivot, use_container_width=True)
 
